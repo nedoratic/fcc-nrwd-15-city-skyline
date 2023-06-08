@@ -300,3 +300,27 @@ body {
                 );
 }
 
+@media (max-width: 1000px) {
+
+    :root {
+        --building-color1: #000000;
+        --building-color2: #000000;
+        --building-color3: #000000;
+        --building-color4: #000000;
+        --window-color1: #777777;
+        --window-color2: #777777;
+        --window-color3: #777777;
+        --window-color4: #777777;
+    }
+    
+    .sky {
+        background: radial-gradient(
+                        closest-corner circle at 15% 15%,
+                        #ccc,
+                        #ccc 20%,
+                        #445 21%,
+                        #223 100%
+                    );
+    }
+}
+
